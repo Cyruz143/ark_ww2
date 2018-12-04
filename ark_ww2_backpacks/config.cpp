@@ -6,7 +6,7 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = 1.86;
         requiredAddons[] = {
-            "ark_backpacks"
+            "ark_backpacks",
             "fow_main",
             "fow_characters",
             "fow_characters_items",

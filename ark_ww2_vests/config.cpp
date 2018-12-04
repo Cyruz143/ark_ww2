@@ -6,7 +6,7 @@ class CfgPatches
         weapons[] = {};
         requiredVersion = 1.86;
         requiredAddons[] = {
-            "ark_vests"
+            "ark_vests",
             "fow_main",
             "fow_characters",
             "WW2_Core_c_IF_ZZZ_LastLoaded_c"
