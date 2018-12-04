@@ -11,7 +11,7 @@ class CfgPatches
             "fow_characters",
             "fow_characters_items",
             "WW2_Core_c_IF_ZZZ_LastLoaded_c"
-            };
+        };
         author = "ARK";
         authorUrl = "http://www.ark-group.org";
     };
