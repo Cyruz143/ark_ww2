@@ -174,10 +174,6 @@ class CfgVehicles {
        maximumLoad = 320;
     };
 
-    class B_LIB_US_Radio_ACRE2: B_LIB_US_Radio {
-       maximumLoad = 320;
-    };
-
     class B_LIB_GER_A_frame: B_LIB_AssaultPack_Base {
        maximumLoad = 320;
     };
