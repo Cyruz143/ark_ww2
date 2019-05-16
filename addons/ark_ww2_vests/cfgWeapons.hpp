@@ -1,11 +1,6 @@
 class CfgWeapons {
-    class V_TacVest_camo;
     class fow_v_base;
     class V_LIB_Vest_Camo_Base;
-    class V_I_G_resistanceLeader_F: V_TacVest_camo {
-        scope = 1;
-        class ItemInfo;
-    };
     class fow_v_heer_p38: fow_v_base {
         scope = 1;
         class ItemInfo;
@@ -114,7 +109,15 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class fow_v_us_carbine_nco_scr: fow_v_base {
+        scope = 1;
+        class ItemInfo;
+    };
     class fow_v_us_garand: fow_v_base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class fow_v_us_garand_bandoleer: fow_v_base {
         scope = 1;
         class ItemInfo;
     };
@@ -131,6 +134,10 @@ class CfgWeapons {
         class ItemInfo;
     };
     class fow_v_us_thompson_nco: fow_v_base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class fow_v_us_thompson_nco_scr: fow_v_base {
         scope = 1;
         class ItemInfo;
     };
@@ -175,6 +182,10 @@ class CfgWeapons {
         class ItemInfo;
     };
     class fow_v_uk_para_bren: fow_v_base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_GER_FSJ_VestKar98: V_LIB_Vest_Camo_Base {
         scope = 1;
         class ItemInfo;
     };
@@ -314,7 +325,19 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class V_LIB_US_AB_Vest_M1919: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Asst_MG: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
     class V_LIB_US_AB_Vest_Carbine: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Carbine_eng: V_LIB_Vest_Camo_Base {
         scope = 1;
         class ItemInfo;
     };
@@ -338,7 +361,19 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class V_LIB_US_AB_Vest_45: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_LifeVest: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
     class V_LIB_US_Vest_Bar: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_Vest_M1919: V_LIB_Vest_Camo_Base {
         scope = 1;
         class ItemInfo;
     };
@@ -386,6 +421,14 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class V_LIB_US_Assault_Vest: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Rifleman: V_LIB_Vest_Camo_Base {
+        scope = 1;
+        class ItemInfo;
+    };
     class fow_v_us_ab_asst_mg: fow_v_us_asst_mg {
         scope = 1;
         class ItemInfo;
@@ -406,7 +449,15 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class fow_v_us_ab_carbine_nco_scr: fow_v_us_carbine_nco_scr {
+        scope = 1;
+        class ItemInfo;
+    };
     class fow_v_us_ab_garand: fow_v_us_garand {
+        scope = 1;
+        class ItemInfo;
+    };
+    class fow_v_us_ab_garand_bandoleer: fow_v_us_garand {
         scope = 1;
         class ItemInfo;
     };
@@ -422,6 +473,10 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class fow_v_us_ab_thompson_nco_scr: fow_v_us_thompson_nco {
+        scope = 1;
+        class ItemInfo;
+    };
     class fow_v_uk_officer_green: fow_v_uk_officer {
         scope = 1;
         class ItemInfo;
@@ -434,11 +489,155 @@ class CfgWeapons {
         scope = 1;
         class ItemInfo;
     };
+    class fow_v_uk_para_sten_green: fow_v_uk_para_sten {
+        scope = 1;
+        class ItemInfo;
+    };
+    class fow_v_uk_para_bren_green: fow_v_uk_para_bren {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_GER_FSJ_VestKar98_Camo: V_LIB_GER_FSJ_VestKar98 {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_GER_FSJ_VestKar98_DAK: V_LIB_GER_FSJ_VestKar98 {
+        scope = 1;
+        class ItemInfo;
+    };
     class V_LIB_SOV_IShBrVestPPShMag: V_LIB_SOV_IShBrVestMG {
         scope = 1;
         class ItemInfo;
     };
     class V_LIB_SOV_IShBrVestPPShDisc: V_LIB_SOV_IShBrVestMG {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Carbine_nco_Radio: V_LIB_US_AB_Vest_Carbine_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Thompson_nco_Radio: V_LIB_US_AB_Vest_Thompson_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Bar: V_LIB_US_AB_Vest_Bar {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_M1919: V_LIB_US_AB_Vest_M1919 {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Asst_MG: V_LIB_US_AB_Vest_Asst_MG {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine: V_LIB_US_AB_Vest_Carbine {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_eng: V_LIB_US_AB_Vest_Carbine_eng {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_nco: V_LIB_US_AB_Vest_Carbine_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_nco_Radio: V_LIB_US_AB_Vest_Padded_Carbine_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Garand: V_LIB_US_AB_Vest_Garand {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Grenadier: V_LIB_US_AB_Vest_Grenadier {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Thompson: V_LIB_US_AB_Vest_Thompson {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Thompson_nco: V_LIB_US_AB_Vest_Thompson_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_Thompson_nco_Radio: V_LIB_US_AB_Vest_Padded_Thompson_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_AB_Vest_Padded_45: V_LIB_US_AB_Vest_45 {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_Vest_Carbine_nco_Radio: V_LIB_US_Vest_Carbine_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_Vest_Thompson_nco_Radio: V_LIB_US_Vest_Thompson_nco {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_Assault_Vest_Light: V_LIB_US_Assault_Vest {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_Assault_Vest_Thompson: V_LIB_US_Assault_Vest {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_US_Assault_Vest_dday: V_LIB_US_Assault_Vest {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Gasmask: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Sten: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Holster: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Heavy: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Officer: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Crew: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Rifleman_Blanco: V_LIB_UK_P37_Rifleman {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Gasmask_Blanco: V_LIB_UK_P37_Gasmask {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Sten_Blanco: V_LIB_UK_P37_Sten {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Holster_Blanco: V_LIB_UK_P37_Holster {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Heavy_Blanco: V_LIB_UK_P37_Heavy {
+        scope = 1;
+        class ItemInfo;
+    };
+    class V_LIB_UK_P37_Officer_Blanco: V_LIB_UK_P37_Officer {
         scope = 1;
         class ItemInfo;
     };
@@ -489,32 +688,6 @@ class CfgWeapons {
     class V_LIB_DAK_PioneerVest: V_LIB_GER_PioneerVest {
         scope = 1;
         class ItemInfo;
-    };
-    class V_I_G_resistanceLeader_F_ARM: V_I_G_resistanceLeader_F {
-        scope = 2;
-        class ItemInfo: ItemInfo {
-            class HitpointsProtectionInfo {
-                class Chest {
-                    hitpointName = "HitChest";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Diaphragm {
-                    hitpointName = "HitDiaphragm";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Abdomen {
-                    hitpointName = "HitAbdomen";
-                    armor = 16;
-                    passThrough = 0.3;
-                };
-                class Body {
-                    hitpointName = "HitBody";
-                    passThrough = 0.3;
-                };
-            };
-        };
     };
     class fow_v_heer_p38_ARM: fow_v_heer_p38 {
         scope = 2;
@@ -1663,7 +1836,81 @@ class CfgWeapons {
             };
         };
     };
+    class fow_v_us_carbine_nco_scr_ARM: fow_v_us_carbine_nco_scr {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class fow_v_us_ab_carbine_nco_ARM: fow_v_us_ab_carbine_nco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class fow_v_us_ab_carbine_nco_scr_ARM: fow_v_us_ab_carbine_nco_scr {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
@@ -1737,7 +1984,81 @@ class CfgWeapons {
             };
         };
     };
+    class fow_v_us_garand_bandoleer_ARM: fow_v_us_garand_bandoleer {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class fow_v_us_ab_garand_ARM: fow_v_us_ab_garand {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class fow_v_us_ab_garand_bandoleer_ARM: fow_v_us_ab_garand_bandoleer {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
@@ -1996,7 +2317,81 @@ class CfgWeapons {
             };
         };
     };
+    class fow_v_us_thompson_nco_scr_ARM: fow_v_us_thompson_nco_scr {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class fow_v_us_ab_thompson_nco_ARM: fow_v_us_ab_thompson_nco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class fow_v_us_ab_thompson_nco_scr_ARM: fow_v_us_ab_thompson_nco_scr {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
@@ -2551,6 +2946,116 @@ class CfgWeapons {
             };
         };
     };
+    class fow_v_uk_para_sten_green_ARM: fow_v_uk_para_sten_green {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class fow_v_uk_para_bren_green_ARM: fow_v_uk_para_bren_green {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Neck {
+                    hitpointName = "HitNeck";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Arms {
+                    hitpointName = "HitArms";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Chest {
+                    hitpointName = "HitChest";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Diaphragm {
+                    hitpointName = "HitDiaphragm";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_GER_FSJ_VestKar98_ARM: V_LIB_GER_FSJ_VestKar98 {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_GER_FSJ_VestKar98_Camo_ARM: V_LIB_GER_FSJ_VestKar98_Camo {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_GER_FSJ_VestKar98_DAK_ARM: V_LIB_GER_FSJ_VestKar98_DAK {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class V_LIB_GER_TankPrivateBelt_ARM: V_LIB_GER_TankPrivateBelt {
         scope = 2;
         class ItemInfo: ItemInfo {
@@ -2795,9 +3300,23 @@ class CfgWeapons {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
+                class Chest {
+                    HitpointName = "HitChest";
+                    armor = 16;
+                    PassThrough = 0.3;
+                };
+                class Diaphragm {
+                    HitpointName = "HitDiaphragm";
+                    armor = 16;
+                    PassThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
                 class Body {
                     hitpointName = "HitBody";
-                    armor = 16;
                     passThrough = 0.3;
                 };
             };
@@ -2807,9 +3326,23 @@ class CfgWeapons {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
+                class Chest {
+                    HitpointName = "HitChest";
+                    armor = 16;
+                    PassThrough = 0.3;
+                };
+                class Diaphragm {
+                    HitpointName = "HitDiaphragm";
+                    armor = 16;
+                    PassThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
                 class Body {
                     hitpointName = "HitBody";
-                    armor = 16;
                     passThrough = 0.3;
                 };
             };
@@ -2819,9 +3352,23 @@ class CfgWeapons {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
+                class Chest {
+                    HitpointName = "HitChest";
+                    armor = 16;
+                    PassThrough = 0.3;
+                };
+                class Diaphragm {
+                    HitpointName = "HitDiaphragm";
+                    armor = 16;
+                    PassThrough = 0.3;
+                };
+                class Abdomen {
+                    hitpointName = "HitAbdomen";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
                 class Body {
                     hitpointName = "HitBody";
-                    armor = 16;
                     passThrough = 0.3;
                 };
             };
@@ -2983,6 +3530,30 @@ class CfgWeapons {
             };
         };
     };
+    class V_LIB_US_AB_Vest_M1919_ARM: V_LIB_US_AB_Vest_M1919 {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Asst_MG_ARM: V_LIB_US_AB_Vest_Asst_MG {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class V_LIB_US_AB_Vest_Carbine_ARM: V_LIB_US_AB_Vest_Carbine {
         scope = 2;
         class ItemInfo: ItemInfo {
@@ -2995,7 +3566,31 @@ class CfgWeapons {
             };
         };
     };
+    class V_LIB_US_AB_Vest_Carbine_eng_ARM: V_LIB_US_AB_Vest_Carbine_eng {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class V_LIB_US_AB_Vest_Carbine_nco_ARM: V_LIB_US_AB_Vest_Carbine_nco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Carbine_nco_Radio_ARM: V_LIB_US_AB_Vest_Carbine_nco_Radio {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
@@ -3055,7 +3650,211 @@ class CfgWeapons {
             };
         };
     };
+    class V_LIB_US_AB_Vest_Thompson_nco_Radio_ARM: V_LIB_US_AB_Vest_Thompson_nco_Radio {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_45_ARM: V_LIB_US_AB_Vest_45 {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Bar_ARM: V_LIB_US_AB_Vest_Padded_Bar {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_M1919_ARM: V_LIB_US_AB_Vest_Padded_M1919 {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Asst_MG_ARM: V_LIB_US_AB_Vest_Padded_Asst_MG {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_ARM: V_LIB_US_AB_Vest_Padded_Carbine {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_eng_ARM: V_LIB_US_AB_Vest_Padded_Carbine_eng {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_nco_ARM: V_LIB_US_AB_Vest_Padded_Carbine_nco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Carbine_nco_Radio_ARM: V_LIB_US_AB_Vest_Padded_Carbine_nco_Radio {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Garand_ARM: V_LIB_US_AB_Vest_Padded_Garand {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Grenadier_ARM: V_LIB_US_AB_Vest_Padded_Grenadier {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Thompson_ARM: V_LIB_US_AB_Vest_Padded_Thompson {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Thompson_nco_ARM: V_LIB_US_AB_Vest_Padded_Thompson_nco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_Thompson_nco_Radio_ARM: V_LIB_US_AB_Vest_Padded_Thompson_nco_Radio {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_AB_Vest_Padded_45_ARM: V_LIB_US_AB_Vest_Padded_45 {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_LifeVest_ARM: V_LIB_US_LifeVest {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class V_LIB_US_Vest_Bar_ARM: V_LIB_US_Vest_Bar {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_Vest_M1919_ARM: V_LIB_US_Vest_M1919 {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
@@ -3104,6 +3903,18 @@ class CfgWeapons {
         };
     };
     class V_LIB_US_Vest_Carbine_nco_ARM: V_LIB_US_Vest_Carbine_nco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_Vest_Carbine_nco_Radio_ARM: V_LIB_US_Vest_Carbine_nco_Radio {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
@@ -3187,7 +3998,223 @@ class CfgWeapons {
             };
         };
     };
+    class V_LIB_US_Vest_Thompson_nco_Radio_ARM: V_LIB_US_Vest_Thompson_nco_Radio {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
     class V_LIB_US_Vest_45_ARM: V_LIB_US_Vest_45 {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_Assault_Vest_ARM: V_LIB_US_Assault_Vest {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_Assault_Vest_Light_ARM: V_LIB_US_Assault_Vest_Light {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_Assault_Vest_Thompson_ARM: V_LIB_US_Assault_Vest_Thompson {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_US_Assault_Vest_dday_ARM: V_LIB_US_Assault_Vest_dday {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Rifleman_ARM: V_LIB_UK_P37_Rifleman {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Gasmask_ARM: V_LIB_UK_P37_Gasmask {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Sten_ARM: V_LIB_UK_P37_Sten {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Holster_ARM: V_LIB_UK_P37_Holster {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Heavy_ARM: V_LIB_UK_P37_Heavy {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Officer_ARM: V_LIB_UK_P37_Officer {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Crew_ARM: V_LIB_UK_P37_Crew {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Rifleman_Blanco_ARM: V_LIB_UK_P37_Rifleman_Blanco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Gasmask_Blanco_ARM: V_LIB_UK_P37_Gasmask_Blanco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Sten_Blanco_ARM: V_LIB_UK_P37_Sten_Blanco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Holster_Blanco_ARM: V_LIB_UK_P37_Holster_Blanco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Heavy_Blanco_ARM: V_LIB_UK_P37_Heavy_Blanco {
+        scope = 2;
+        class ItemInfo: ItemInfo {
+            class HitpointsProtectionInfo {
+                class Body {
+                    hitpointName = "HitBody";
+                    armor = 16;
+                    passThrough = 0.3;
+                };
+            };
+        };
+    };
+    class V_LIB_UK_P37_Officer_Blanco_ARM: V_LIB_UK_P37_Officer_Blanco {
         scope = 2;
         class ItemInfo: ItemInfo {
             class HitpointsProtectionInfo {
