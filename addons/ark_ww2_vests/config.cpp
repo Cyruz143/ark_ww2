@@ -1,10 +1,10 @@
-class CfgPatches
-{
-    class ark_ww2_vests
-    {
+#include "script_component.hpp"
+
+class CfgPatches {
+    class ark_ww2_vests {
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.86;
+        requiredVersion = 2.00;
         requiredAddons[] = {
             "ark_vests",
             "fow_main",
