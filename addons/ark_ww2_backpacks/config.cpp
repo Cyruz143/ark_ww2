@@ -1,10 +1,8 @@
-class CfgPatches
-{
-    class ark_ww2_backpacks
-    {
+class CfgPatches {
+    class ark_ww2_backpacks {
         units[] = {};
         weapons[] = {};
-        requiredVersion = 1.86;
+        requiredVersion = 2.00;
         requiredAddons[] = {
             "ark_backpacks",
             "fow_main",
