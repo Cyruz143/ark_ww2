@@ -110,7 +110,7 @@ class CfgVehicles {
        maximumLoad = 320;
     };
 
-    class B_LIB_SOV_RA_Rucksack2: B_LIB_AssaultPack_Base {
+    class B_LIB_SOV_RA_Rucksack2: B_LIB_SOV_RA_Rucksack {
        maximumLoad = 320;
     };
 
@@ -166,7 +166,11 @@ class CfgVehicles {
        maximumLoad = 320;
     };
 
-    class B_LIB_US_M36_Rocketbag_Empty: B_LIB_US_M36 {
+    class B_LIB_US_M36_Rocketbag: B_LIB_US_M36 {
+       maximumLoad = 320;
+    }
+
+    class B_LIB_US_M36_Rocketbag_Empty: B_LIB_US_M36_Rocketbag {
        maximumLoad = 320;
     };
 

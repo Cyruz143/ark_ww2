@@ -6,7 +6,8 @@ class CfgPatches {
         requiredAddons[] = {
             "ark_main",
             "acre_main",
-            "WW2_Core_f_WW2_System_Infantry_f"
+            "WW2_Core_f_WW2_System_Infantry_f",
+            "WW2_Core_c_IF_ZZZ_LastLoaded_c"
         };
         author = "ARK";
         authorUrl = "http://www.ark-group.org";
