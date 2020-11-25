@@ -1,5 +1,5 @@
 class CfgPatches {
-    class ark_ww2_acre {
+    class ark_ww2_fixes {
         units[] = {};
         weapons[] = {};
         requiredVersion = 2.00;
@@ -14,7 +14,7 @@ class CfgPatches {
 };
 
 class Extended_PostInit_EventHandlers {
-    class ark_ww2_acre {
-        clientinit = "call compile preProcessFileLineNumbers 'x\ark\addons\ark_ww2_acre\client_postinit.sqf';";
+    class ark_ww2_fixes {
+        clientinit = "call compile preProcessFileLineNumbers 'x\ark\addons\ark_ww2_fixes\client_postinit.sqf';";
     };
 };
